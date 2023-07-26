@@ -29,13 +29,53 @@
         }
     </script>
     <style>
-        .lato{
+        .lato {
             font-family: 'Lato', sans-serif;
         }
     </style>
 </head>
 
 <body class="lato">
+    <!-- nav -->
+    <div class="navbar bg-base-100 lg:px-16 rounded-full bg-[#F85559]">
+        <div class=" navbar-start lg:navbar-start">
+            <div class="dropdown ml-0">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3  shadow bg-base-100 rounded-box w-52">
+                    <li><a class="text-lg ">Home </a></li>
+                    <li><a class="text-lg ">Services <img src="Frame.jpg" alt=""></a></li>
+                    <li><a class="text-lg ">Cases <img src="Frame.jpg" alt=""></a></li>
+                    <li><a class="text-lg ">Blog <img src="Frame.jpg" alt=""></a></li>
+                    <li>
+                        <div class="relative border border-gray-100">
+                            <input type="search" placeholder="Searh here">
+                            <img src="Frame.png" alt="" class="absolute right-1 rounded-full ">
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu menu-horizontal hidden lg:flex   ">
+                    <li><a class="text-lg text-[#FFF] ">Home</a></li>
+                    <li><a class="text-lg text-[#FFF] ">Services <img src="Frame.jpg" alt=""></a></li>
+                    <li><a class="text-lg text-[#FFF]">Cases <img src="Frame.jpg" alt=""></a></li>
+                    <li><a class="text-lg text-[#FFF] ">Blog <img src="Frame.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="navbar-start lg:navbar-center lg:flex gap-2 justify-center items-center">
+            <img src="images/logo.png" alt="">
+            <h1 class="lg:text-[38px] font-bold text-[#FFF]">Fruit Burst</h1>
+        </div>
+        <div class="hidden lg:block lg:navbar-end relative">
+            <input type="search" name="" id="" placeholder="Search here" class="w-[250px] h-9 rounded-full px-2">
+            <img src="Frame.png" alt="" class="absolute right-3 top-2 ">
+        </div>
+    </div>
 
 </body>
 
