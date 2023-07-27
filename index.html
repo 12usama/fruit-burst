@@ -80,8 +80,8 @@
             </div>
         </div>
         <!-- banner -->
-        <div class="">
-            <div class="carousel w-full h-250px md:h-[450px] my-4 lg:my-16 lg:relative ">
+        <div class="lg:relative">
+            <div class="carousel w-full h-250px md:h-[450px] my-4 lg:my-16 ">
                 <!-- slide 1 -->
                 <div id="slide1"
                     class="carousel-item relative w-full  bg-cover bg-no-repeat bg-black/50 bg-blend-multiply rounded-lg" 
@@ -149,25 +149,25 @@
             </div>
             <!-- fruits section -->
             <div
-                class="lg:flex justify-around gap-3 p-10 bg-[#FFF] rounded-lg hidden lg:absolute lg:-bottom-36 lg:left-52">
+                class="lg:flex justify-around gap-3 p-10 bg-[#FFF] rounded-lg hidden lg:absolute lg:-bottom-[70px] lg:left-1/2 lg:-translate-x-1/2 space-x-12">
                 <div class="flex flex-col items-center">
-                    <img src="images/fruit1.png" alt="">
+                    <img class="h-[80px]" src="images/fruit1.png" alt="">
                     <p class="text-lg font-medium">Blackberry</p>
                 </div>
                 <div class="flex flex-col items-center">
-                    <img src="images/fruit2.png" alt="">
+                    <img class="h-[80px]" src="images/fruit2.png" alt="">
                     <p class="text-lg font-medium">Orange</p>
                 </div>
                 <div class="flex flex-col items-center">
-                    <img src="images/fruit3.png" alt="">
+                    <img class="h-[80px]" src="images/fruit3.png" alt="">
                     <p class="text-lg font-medium">Mango</p>
                 </div>
                 <div class="flex flex-col items-center">
-                    <img src="images/fruit4.png" alt="">
+                    <img class="h-[80px]" src="images/fruit4.png" alt="">
                     <p class="text-lg font-medium">Strawberry</p>
                 </div>
                 <div class="flex flex-col items-center">
-                    <img src="images/fruit5.png" alt="">
+                    <img class="h-[80px]" src="images/fruit5.png" alt="">
                     <p class="text-lg font-medium">Pomegranate</p>
                 </div>
             </div>
@@ -224,7 +224,7 @@
             </div>
 
             <!-- fruit card -->
-            <div class="grid lg:flex lg:justify-between items-center my-10 ">
+            <div class="grid lg:flex lg:justify-center gap-10 items-center my-10 ">
                  <!-- card 1 -->
                  <div class="card  border border-[#1212121A] rounded-lg">
                     <figure class=" lg:px-20 pt-10">
@@ -250,8 +250,8 @@
                           </div>
                     </div>
                     <!-- modal in card -->
-                    <button class="text-[#F85559] text-lg font-bold mb-4" onclick="my_modal_5.showModal()">Details</button>
-                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                    <button class="text-[#F85559] text-lg font-bold mb-4" onclick="my_modal_1.showModal()">Details</button>
+                    <dialog id="my_modal_1" class="modal modal-bottom sm:modal-middle">
                         <form method="dialog" class="modal-box">
                             <!-- modal card -->
                             <div class="card shadow-xl">
@@ -318,8 +318,8 @@
                               </div>
                         </div>
                         <!-- modal in card -->
-                        <button class="text-[#F85559] text-lg font-bold mb-4" onclick="my_modal_5.showModal()">Details</button>
-                        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                        <button class="text-[#F85559] text-lg font-bold mb-4" onclick="my_modal_2.showModal()">Details</button>
+                        <dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
                             <form method="dialog" class="modal-box">
                                 <!-- modal card -->
                                 <div class="card shadow-xl">
@@ -386,8 +386,8 @@
                           </div>
                     </div>
                     <!-- modal in card -->
-                    <button class="text-[#F85559] text-lg font-bold mb-4" onclick="my_modal_5.showModal()">Details</button>
-                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                    <button class="text-[#F85559] text-lg font-bold mb-4" onclick="my_modal_3.showModal()">Details</button>
+                    <dialog id="my_modal_3" class="modal modal-bottom sm:modal-middle">
                         <form method="dialog" class="modal-box">
                             <!-- modal card -->
                             <div class="card shadow-xl">
@@ -453,8 +453,8 @@
                           </div>
                     </div>
                     <!-- modal in card -->
-                    <button class="text-[#F85559] text-lg font-bold mb-4" onclick="my_modal_5.showModal()">Details</button>
-                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                    <button class="text-[#F85559] text-lg font-bold mb-4" onclick="my_modal_4.showModal()">Details</button>
+                    <dialog id="my_modal_4" class="modal modal-bottom sm:modal-middle">
                         <form method="dialog" class="modal-box">
                             <!-- modal card -->
                             <div class="card shadow-xl">
@@ -557,8 +557,8 @@
                     
                             <ul class="flex items-center gap-2">
                                 <li><a href="https://www.facebook.com/" target="_blank"><img src="images/facebook 1.png" alt=""></a></li>
-                                <li><a href="https://twitter.com/" target="_blank"></a><img src="images/twitter (1).png" alt=""></li>
-                                <li><a href="https://www.linkedin.com/feed/" target="_blank"></a><img src="images/linkedin 1.png" alt=""></li>
+                                <li><a href="https://twitter.com/" target="_blank"><img src="images/twitter (1).png" alt=""></a></li>
+                                <li><a href="https://www.linkedin.com/feed/" target="_blank"><img src="images/linkedin 1.png" alt=""></a></li>
                             </ul>
                     </div>
                 </div>
@@ -571,16 +571,17 @@
                 <h1 class="text-xl lg:text-4xl font-bold text-center mb-5">Why Choose Us</h1>
                 <p class="text-lg font-normal text-center mb-10">We are the unique online mart for fruits. You will get premium and fresh fruits always from us. <br>There are some reason for choosing us:</p>
             </div>
-          <div class="grid lg:flex justify-around items-center gap-5">
-            <div>
+          <div class="grid lg:flex justify-around items-center gap-5 ">
+            <div class="order-2">
                 <div class=" grid lg:flex gap-3">
                     <div class="relative mx-auto lg:mx-0">
                         <img src="images/Ellipse 2.png" alt="">
                         <img src="images/group 1.png" alt="" class="absolute left-5 top-4">
                     </div>
                     <div>
-                     <h1 class="text-center lg:text-left text-2xl font-bold">Dedicated Team</h1>
-                    <hr>
+                     <h1 class="text-center lg:text-left text-2xl font-bold mb-2">Dedicated Team</h1>
+                    <div class="w-16 h-[2px] bg-black/50 mb-1 items-center lg:items-start mx-auto lg:mx-0">
+                    </div>
                     <p class=" text-center lg:text-left text-sm font-normal">We have a dedicated team. <br> You will get any kind of help from them.</p>
                     </div>
                 </div>
@@ -602,45 +603,44 @@
                     </div>
                     <div>
                      <h1 class="text-center lg:text-left text-2xl font-bold">Gift Certificates</h1>
-                    <hr>
+                
                     <p class="text-center lg:text-left text-sm font-normal">We always have some offers and we provide <br>best customer certificate with some special offers.</p>
                     </div>
                 </div>
               </div>
-              <div class="">
+              <div class="order-1 lg:order-2">
                 <img src="images/whychoose1.png" alt="">
               </div>
-              <div>
-                <div class="grid lg:flex gap-3">
-                    <div>
+              <div class="order-3">
+                <div class="grid  lg:flex gap-3">
+                    <div class="order-2 lg:order-1">
                         <h1 class="text-2xl font-bold text-center lg:text-right">Integrated Supplier</h1>
-                       <hr>
+                       
                        <p class="text-sm font-normal text-center lg:text-right">We have integrated supliers.<br> They provide always best fruits of their garden.</p>
                        </div>
-                    <div class="relative mx-auto lg:mx-0">
+                    <div class="relative mx-auto lg:mx-0 order-1">
                         <img src="images/Ellipse 2.png" alt="">
                         <img src="images/sup.png" alt="" class="absolute left-5 top-4">
                     </div>
-                    
                 </div>
-                <div class="grid lg:flex gap-3 mt-10">
-                    <div>
+                <div class="grid lg:flex gap-3 mt-10 pl-0">
+                    <div class="order-2 lg:order-1">
                         <h1 class="text-2xl font-bold text-center lg:text-right">Sustainable Practice</h1>
-                       <hr>
+                    
                        <p class="text-sm font-normal text-center lg:text-right">We always keep sustainable practice<br> cause we have to provide the best fruits.</p>
                        </div>
-                    <div class="relative mx-auto lg:mx-0">
+                    <div class="relative mx-auto lg:mx-0 order-1">
                         <img src="images/Ellipse 2.png" alt="">
                         <img src="images/ice-cream 1.png" alt="" class="absolute left-5 top-5">
                     </div>
                 </div>
                 <div class="grid lg:flex gap-3 mt-10">
-                    <div class="">
+                    <div class="order-2 lg:order-1">
                         <h1 class="text-2xl font-bold text-center lg:text-right">The Benefits Only</h1>
-                       <hr>
+                    
                        <p class="text-sm font-normal text-center lg:text-right">We always believe that <br> Fruit burst means best benefits and best choice.</p>
                        </div>
-                    <div class="relative mx-auto lg:mx-0">
+                    <div class="relative mx-auto lg:mx-0 order-1">
                         <img src="images/Ellipse 2.png" alt="">
                         <img src="images/like 1.png" alt="" class="absolute left-4 top-4">
                     </div>
@@ -649,6 +649,30 @@
           </div>
         </section>
     </main>
+    <footer class="bg-[#121212] py-20">
+        <div class="flex justify-center items-center mb-10">
+            <img src="images/logo.png" alt="" class="w-[35px] lg:w-auto">
+            <h1 class="text-xl lg:text-[38px] font-bold text-[#FFF]">Fruit Burst</h1>
+        </div>
+        <div class="flex justify-center items-center gap-10 mb-8 flex-wrap lg:flex-nowrap">
+            <p class="text-lg font-medium text-[#FFF] text-center">Home</p>
+            <p class="text-lg font-medium text-[#FFF] text-center">About Us</p>
+            <p class="text-lg font-medium text-[#FFF] text-center">Shop</p>
+            <p class="text-lg font-medium text-[#FFF] text-center">All Fruits</p>
+            <p class="text-lg font-medium text-[#FFF] text-center">Support</p>
+            <p class="text-lg font-medium text-[#FFF] text-center">My Account</p>
+        </div>
+        <div>
+            <ul class="flex justify-center items-center gap-4 lg:gap-8">
+                <li><a href="https://twitter.com/" target="_blank"><img src="twitter 1.png" alt=""></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="facebook 1.png" alt=""></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><img src="yt.png" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/feed/" target="_blank"><img src="linkedin 1.png" alt=""></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="instagram 1.png" alt=""></a></li>
+                <li><a href="https://www.apple.com/" target="_blank"><img src="apple 1.png" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
 
 
 </body>
